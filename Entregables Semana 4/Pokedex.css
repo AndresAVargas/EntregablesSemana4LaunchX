@@ -1,0 +1,500 @@
+.Search{
+    width: 60px;
+    height: 60px;
+    font-size: xx-small;
+    font-weight: lighter;
+    background-color: rgb(90, 51, 231);
+    position: absolute;
+    top: 450px; left: 420px;
+    border-radius: 100px 100px 100px 100px;
+    z-index: 5;
+}
+body{
+    background-color:rgb(100, 149, 204);
+}
+.I{
+    width: 350px;
+    height: 530px;
+    background-color: rgb(221, 21, 21);
+    position: absolute;
+    top: 60px; left: 400px ;
+    border-radius: 20px 20px 0px 20px;
+    z-index: 1;
+}
+.D{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(221, 21, 21);
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    top: 190px; left: 750px   ;
+    z-index: 1;
+}
+.division{
+    width: 40px;
+    height: 470px;
+    border-width: 10px;
+    background-color: rgb(94, 18, 18);
+    position: absolute;
+    top: 120px; left: 710px   ;
+    z-index: 2  ;
+    
+}
+.corte1{
+    width: 160px;
+    height: 70px;
+    background-color: rgb(221, 21, 21);
+    position: absolute;
+    top: 120px; left: 750px;
+    border-radius: 0px 0px 0px 0px;
+    z-index: 1;
+}
+.corte2{
+    width: 130px;
+    height: 70px;
+    transform:rotate(40deg);
+    background-color: rgb(100, 149, 204);
+    border-radius:0px 0px 0px 0px;
+    position: absolute;
+    top: 87px; left:820px;
+    z-index: 2;
+}
+.linea1{
+    width: 4px;
+    height: 100px;
+    transform: rotate(90deg);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:68px; left: 699px;
+    z-index: 2;
+}
+.linea2{
+    width: 4px;
+    height: 70px;
+    transform: rotate(40deg);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:109px; left: 627px;
+    z-index: 2;
+}
+.linea3{
+    width: 4px;
+    height: 208px;
+    transform: rotate(90deg);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:66px; left: 502px;
+    z-index: 2;
+}
+.F1{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background: rgb(131, 1, 1);
+    position: absolute;
+    top: 70px; left: 500px;
+    z-index: 2;
+}
+.F2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background: rgb(255, 217, 0);
+    position: absolute;
+    top: 70px; left: 530px;
+    z-index: 2;
+}
+.F3{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background: rgb(29, 201, 38);
+    position: absolute;
+    top: 70px; left: 560px;
+    z-index: 2;
+}
+.F4{
+    width: 55px;
+    height: 55px;
+    font-size: xx-small;
+    font-weight: lighter;
+    border-radius: 100px;
+    background: rgb(90, 51, 231);
+    position: absolute;
+    top: 90px; left: 430px;
+    z-index: 2;
+}
+.Pantalla{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 200px; left: 455px;
+    z-index: 3;
+}
+.PantallaAtras{
+    width: 240px;
+    height: 240px;
+    background-color: rgb(102, 96, 96);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 180px; left: 435px;
+    z-index: 2;
+}
+.pokeball{
+    position: absolute;
+    top:220px; left: 480px;
+    z-index: 5;
+}
+.B1{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(22, 129, 18);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 440px; left: 540px;
+    z-index: 2;
+}
+.B2{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(136, 1, 24);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 440px; left: 480px;
+    z-index: 2;
+}
+.Button{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(90, 51, 231);
+    border-radius: 1000px;
+}
+.Pantalla2{
+    width: 120px;
+    height: 70px;
+    background-color: rgb(7, 85, 27);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 490px; left: 500px;
+    z-index: 3;
+}
+.pokeball1{
+    position: absolute;
+    top: 495px; left: 530px;
+    z-index: 5;
+}
+.Cruz1{
+    width: 30px;
+    height: 70px;
+    background-color: rgb(90, 51, 231);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 450px; left: 650px;
+    z-index: 3;
+}
+.Cruz2{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(90, 51, 231);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 470px; left: 630px;
+    z-index: 3;
+}
+.Cruz3{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(24, 23, 23, 0.5);
+    position: absolute;
+    top: 475px; left: 655px;
+    z-index: 3;
+}
+.Input1{
+    width: 120px;
+    height: 20px;
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(140, 165, 194);
+    position: absolute;
+    top: 105px; left: 495px;
+    z-index: 5;
+}
+.Pantalla3{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(56, 177, 52);
+    position: absolute;
+    top: 220px; left: 775px;
+    z-index: 3;
+}
+.Titulo2{
+    font-size:small ;
+    color: rgb(15, 68, 18);
+    position: absolute;
+    top: 205px; left: 780px;
+    z-index: 5;
+}
+.P1{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 225px; left: 780px;
+    z-index: 5;
+}
+.P2{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 245px; left: 780px;
+    z-index: 5;
+}
+.P3{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 265px; left: 780px;
+    z-index: 5;
+}
+.P4{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 225px; left: 885px;
+    z-index: 5;
+}
+.P5{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 245px; left: 885px;
+    z-index: 5;
+}
+.P6{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 265px; left: 885px;
+    z-index: 5;
+}
+.p1{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 225px; left: 840px;
+    z-index: 5;
+}
+.p2{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 245px; left: 840px;
+    z-index: 5;
+}
+.p3{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 265px; left: 840px;
+    z-index: 5;
+}
+.p4{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 225px; left: 995px;
+    z-index: 5;
+}
+.p5{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 245px; left: 995px;
+    z-index: 5;
+}
+.p6{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 265px; left: 995px;
+    z-index: 5;
+}
+.Titulo3{
+    font-size: small;
+    color: rgb(15, 68, 18);
+    position: absolute;
+    top: 275px; left: 780px;
+    z-index: 5;
+}
+.p7{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 295px; left: 780px;
+    z-index: 5;
+}
+.p8{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 295px; left: 900px;
+    z-index: 5;
+}
+.p9{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 315px; left: 780px;
+    z-index: 5;
+}
+.p10{
+    font-size: small;
+    color: rgb(3, 46, 5);
+    position: absolute;
+    top: 315px; left: 900px;
+    z-index: 5;
+}
+.N{
+    font-size: medium;
+    position: absolute;
+    top: 365px; left: 530px;
+    z-index: 5;
+}
+.A1{
+    width: 200px;
+    height: 70px;
+    background-color:rgb(90, 51, 231) ;
+    position: absolute;
+    top: 380px; left: 800px;
+    z-index: 3;
+}
+.l1{
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 380px; left: 900px;
+    z-index: 3;
+}
+.l2{
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 380px; left: 850px;
+    z-index: 3;
+}
+.l3{
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 380px; left: 950px;
+    z-index: 3;
+}
+.l4{
+    width: 1px;
+    height: 200px;
+    transform: rotate(90deg);
+    background-color: black;
+    position: absolute;
+    top: 315px; left: 900px;
+    z-index: 3;
+}
+.b1{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(22, 129, 18);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 460px; left: 900px;
+    z-index: 3;
+}
+.b2{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(206, 209, 24);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 460px; left: 960px;
+    z-index: 3;
+}
+.A2{
+    width: 80px;
+    height: 30px;
+    background-color:rgb(102, 96, 96) ;
+    position: absolute;
+    top: 475px; left: 800px;
+    z-index: 3;
+}
+.l5{
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 475px; left: 840px;
+    z-index: 3;
+}
+.Pantalla4{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 525px; left: 790px;
+    z-index: 3;
+}
+.Pantalla5{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 525px; left: 920px;
+    z-index: 3;
+}
+.t1{
+    font-size: small;
+    font-family: fantasy;
+    color: rgb(90, 51, 231);
+    position: absolute;
+    top: 510px; left: 800px;
+    z-index: 5;
+}
+.t2{
+    font-size: small;
+    font-family: fantasy;
+    color: rgb(90, 51, 231);
+    position: absolute;
+    top: 510px; left: 930px;
+    z-index: 5;
+}
+.T1{
+    font-size: small;
+    font-family: fantasy;
+    color: rgb(90, 51, 231);
+    position: absolute;
+    top: 530px; left: 820px;
+    z-index: 5;
+}
+.T2{
+    position: absolute;
+    font-size: small;
+    font-family: fantasy;
+    color: rgb(90, 51, 231);
+    position:absolute;
+    top: 530px; left: 950px;
+    z-index: 5;
+}
+.Titulo1{
+    font-family:monospace;  
+    position:absolute;
+    top: 0px; left: 220px;
+    z-index: 4;
+}
+.logo{
+    position: absolute;
+    top: 0px; left: 0px;
+}
